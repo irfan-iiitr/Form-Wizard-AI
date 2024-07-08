@@ -2,8 +2,31 @@
 
 Welcome to AI Form Builder, the ultimate platform that revolutionizes the way you create and share forms. With our cutting-edge artificial intelligence technology, we offer intuitive design tools that empower you to craft forms that are not only visually appealing but also optimized for better conversion rates. Say goodbye to mundane forms and welcome a new era of digital interaction.
 
-## Features
+# Screenshots
 
+## Homepage 
+![image](https://github.com/irfan-iiitr/Form-Wizard-AI/assets/123577873/c8af56e9-1562-4d6c-89a8-aba289ba1192)
+
+## SignUp Page
+![image](https://github.com/irfan-iiitr/Form-Wizard-AI/assets/123577873/96673c48-01be-4d11-89e8-2d54a88d82fc)
+
+## Dashboard
+![image](https://github.com/irfan-iiitr/Form-Wizard-AI/assets/123577873/233f3997-40e7-4854-a16e-89799ba13901)
+
+## Customize Your Form
+![image](https://github.com/irfan-iiitr/Form-Wizard-AI/assets/123577873/b48e81af-17b7-4342-913e-e6bf93fa69c2)
+
+## Share Your Form
+![image](https://github.com/irfan-iiitr/Form-Wizard-AI/assets/123577873/b49b5c3f-ede4-48a0-984d-8eb46c23109a)
+
+## Export Data in Excel
+![image](https://github.com/irfan-iiitr/Form-Wizard-AI/assets/123577873/921b1a31-bcdb-4286-97ed-40e2bc29978d)
+
+## Payment Integration
+![image](https://github.com/irfan-iiitr/Form-Wizard-AI/assets/123577873/677e758a-e258-4d8d-bfb7-4649b2d73ea2)
+
+
+## Features
 
 - **Intuitive Design Tools:** Our user-friendly interface makes form creation quick and easy, even for beginners.
 - **Instant Sharing:** Once your form is ready, share it across multiple platforms with just a few clicks.
