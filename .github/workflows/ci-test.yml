@@ -20,3 +20,4 @@ jobs:
             verbose: true
         env: 
             CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+            version: "v0.1.15"
