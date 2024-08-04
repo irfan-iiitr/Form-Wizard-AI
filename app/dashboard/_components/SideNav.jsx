@@ -97,7 +97,7 @@ function SideNav() {
         <Button className='w-full'>+ Create Form</Button>
        <div className='mt-5 '>
        <Progress value={noOfFileCreated}  />
-       <p className='mt-2'><strong>{formList?.length}</strong> Out of <strong>3</strong> forms Created</p>
+       <p className='mt-2'><strong>{formList?.length}</strong> Out of <strong>5</strong> forms Created</p>
        <p className='mt-2 w-full text-center text-sm text-grey-500'>Upgrade to unlock more features</p>
        </div>
        </div>
