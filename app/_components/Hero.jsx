@@ -22,13 +22,13 @@ Our platform offers intuitive design tools  to help you craft forms that not onl
         {
           isSignedIn? <a
           className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
-          href="/sign-up"
+          href="/dashboard"
         >
           + Create Form
         </a>:
          <a
          className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
-         href="/dashboard"
+         href="/sign-up"
        >
          + Create Form
        </a>
