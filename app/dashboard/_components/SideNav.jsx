@@ -69,40 +69,34 @@ function SideNav() {
 
 
     return (
-    <div className='h-screen shadow-md border'>
-       <div>
-        {
-            menuList.map((menu,index)=>{
-                return (
-                <div key={index} className='mr-3'>
-                    
-                        <Link href={menu.path} key={index} className={`flex mt-2 items-center gap-3 p-4 mb-3 hover:bg-primary hover:text-white rounded-lg
-                        cursor-pointer text-grey-500 
-                          ${path==menu.path && 'bg-primary text-white'}
-                        `} > 
-                                            <menu.icon/>
-                                            {menu.name}
-                        </Link >
+        <div className='h-screen shadow-md border bg-gray-50 flex flex-col justify-between'>
+            <div className='p-4'>
+                {menuList.map((menu, index) => {
+                    return (
+                        <div key={index} className='mr-3'>
+                            <Link href={menu.path} key={index} className={`flex mt-2 items-center gap-3 p-4 mb-3 hover:bg-primary hover:text-white rounded-lg
+                            cursor-pointer  transition-colors duration-200
+                            ${path == menu.path && 'bg-primary text-white'}
+                            `}>
+                                <menu.icon className='w-5 h-5' />
+                                <span className='font-medium'>{menu.name}</span>
+                            </Link>
+                        </div>
+                    )
+                })}
+            </div>
+
+            {/* bottom part */}
+            <div className='p-6 w-full'>
+                <Button className='w-full bg-primary text-white hover:bg-primary-dark'>+ Create Form</Button>
+                <div className='mt-5'>
+                    <Progress value={noOfFileCreated} className='h-2 rounded-full' />
+                    <p className='mt-2 text-center'><strong>{formList?.length}</strong> Out of <strong>5</strong> forms Created</p>
+                    <p className='mt-2 w-full text-center text-sm text-gray-500'>Upgrade to unlock more features</p>
                 </div>
-
-                )
-                
-            })
-        }
-       </div>
-
-       {/* bottom part */}
-
-       <div className=' bottom-10 p-6 w-64'>
-        <Button className='w-full'>+ Create Form</Button>
-       <div className='mt-5 '>
-       <Progress value={noOfFileCreated}  />
-       <p className='mt-2'><strong>{formList?.length}</strong> Out of <strong>5</strong> forms Created</p>
-       <p className='mt-2 w-full text-center text-sm text-grey-500'>Upgrade to unlock more features</p>
-       </div>
-       </div>
-    </div>
-  )
+            </div>
+        </div>
+    )
 }
 
 export default SideNav

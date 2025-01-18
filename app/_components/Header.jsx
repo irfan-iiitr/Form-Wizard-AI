@@ -17,7 +17,7 @@ function Header() {
     <div className='p-3 border-b shadow-sm '>
          <div className='flex item-center  justify-between'>
           <div className='flex items-center justify-center'>
-          <Image src={'/logo.svg'} width={50} height={50} alt='logo'></Image>
+            <Link href={'/'}><Image  src={'/logo.svg'} width={50} height={50} alt='logo'></Image></Link>
           <h1 className='text-3xl ml-3 '><strong><pre>Form Wizard</pre></strong></h1>
           </div>
             
